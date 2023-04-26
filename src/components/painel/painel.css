@@ -1,0 +1,15 @@
+.painel {
+  width: 50%;
+  margin: 30px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media (max-width: 425px) {
+  .painel {
+    width: 90%;
+  }
+}
