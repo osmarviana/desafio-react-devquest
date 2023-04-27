@@ -1,4 +1,4 @@
-.painel {
+.panel {
   width: 50%;
   margin: 30px;
   padding: 15px;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 425px) {
-  .painel {
+  .panel {
     width: 90%;
   }
 }

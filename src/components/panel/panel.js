@@ -1,10 +1,10 @@
 import React from "react";
-import "./painel.css";
+import "./panel.css";
 
-const Painel = ({ children, color, textTransform }) => {
+const Panel = ({ children, color, textTransform }) => {
   return (
     <div
-      className="painel"
+      className="panel"
       style={{ backgroundColor: color, textTransform: textTransform }}
     >
       {children}
@@ -12,9 +12,9 @@ const Painel = ({ children, color, textTransform }) => {
   );
 };
 
-Painel.defaultProps = {
+Panel.defaultProps = {
   color: "lightblue",
   textTransform: "uppercase",
 };
 
-export default Painel;
+export default Panel;
